@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0E164F7150DBF0F00C1448E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E164F6150DBF0E00C1448E /* UIKit.framework */; };
+		E0E164F9150DBF0F00C1448E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E164F8150DBF0F00C1448E /* Foundation.framework */; };
+		E0E164FB150DBF0F00C1448E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E164FA150DBF0F00C1448E /* CoreGraphics.framework */; };
+		E0E16501150DBF0F00C1448E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0E164FF150DBF0F00C1448E /* InfoPlist.strings */; };
+		E0E16503150DBF0F00C1448E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E16502150DBF0F00C1448E /* main.m */; };
+		E0E16507150DBF0F00C1448E /* SecretAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E16506150DBF0F00C1448E /* SecretAppDelegate.m */; };
+		E0E1650A150DBF0F00C1448E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E16508150DBF0F00C1448E /* MainStoryboard.storyboard */; };
+		E0E1650D150DBF0F00C1448E /* SecretViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E1650C150DBF0F00C1448E /* SecretViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E0E164F2150DBF0E00C1448E /* Secret Mixes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Secret Mixes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E164F6150DBF0E00C1448E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E0E164F8150DBF0F00C1448E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E0E164FA150DBF0F00C1448E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E0E164FE150DBF0F00C1448E /* Secret Mixes-Info.plist */ = {isa = PBXFileReference; path = "Secret Mixes-Info.plist"; sourceTree = "<group>"; };
+		E0E16500150DBF0F00C1448E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E0E16502150DBF0F00C1448E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0E16504150DBF0F00C1448E /* Secret Mixes-Prefix.pch */ = {isa = PBXFileReference; path = "Secret Mixes-Prefix.pch"; sourceTree = "<group>"; };
+		E0E16505150DBF0F00C1448E /* SecretAppDelegate.h */ = {isa = PBXFileReference; path = SecretAppDelegate.h; sourceTree = "<group>"; };
+		E0E16506150DBF0F00C1448E /* SecretAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecretAppDelegate.m; sourceTree = "<group>"; };
+		E0E16509150DBF0F00C1448E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E0E1650B150DBF0F00C1448E /* SecretViewController.h */ = {isa = PBXFileReference; path = SecretViewController.h; sourceTree = "<group>"; };
+		E0E1650C150DBF0F00C1448E /* SecretViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecretViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0E164EF150DBF0E00C1448E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E164F7150DBF0F00C1448E /* UIKit.framework in Frameworks */,
+				E0E164F9150DBF0F00C1448E /* Foundation.framework in Frameworks */,
+				E0E164FB150DBF0F00C1448E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0E164E7150DBF0E00C1448E = {
+			isa = PBXGroup;
+			children = (
+				E0E164FC150DBF0F00C1448E /* Secret Mixes */,
+				E0E164F5150DBF0E00C1448E /* Frameworks */,
+				E0E164F3150DBF0E00C1448E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0E164F3150DBF0E00C1448E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0E164F2150DBF0E00C1448E /* Secret Mixes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0E164F5150DBF0E00C1448E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0E164F6150DBF0E00C1448E /* UIKit.framework */,
+				E0E164F8150DBF0F00C1448E /* Foundation.framework */,
+				E0E164FA150DBF0F00C1448E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0E164FC150DBF0F00C1448E /* Secret Mixes */ = {
+			isa = PBXGroup;
+			children = (
+				E0E16505150DBF0F00C1448E /* SecretAppDelegate.h */,
+				E0E16506150DBF0F00C1448E /* SecretAppDelegate.m */,
+				E0E16508150DBF0F00C1448E /* MainStoryboard.storyboard */,
+				E0E1650B150DBF0F00C1448E /* SecretViewController.h */,
+				E0E1650C150DBF0F00C1448E /* SecretViewController.m */,
+				E0E164FD150DBF0F00C1448E /* Supporting Files */,
+			);
+			path = "Secret Mixes";
+			sourceTree = "<group>";
+		};
+		E0E164FD150DBF0F00C1448E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0E164FE150DBF0F00C1448E /* Secret Mixes-Info.plist */,
+				E0E164FF150DBF0F00C1448E /* InfoPlist.strings */,
+				E0E16502150DBF0F00C1448E /* main.m */,
+				E0E16504150DBF0F00C1448E /* Secret Mixes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0E164F1150DBF0E00C1448E /* Secret Mixes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E16510150DBF0F00C1448E /* Build configuration list for PBXNativeTarget "Secret Mixes" */;
+			buildPhases = (
+				E0E164EE150DBF0E00C1448E /* Sources */,
+				E0E164EF150DBF0E00C1448E /* Frameworks */,
+				E0E164F0150DBF0E00C1448E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Secret Mixes";
+			productName = "Secret Mixes";
+			productReference = E0E164F2150DBF0E00C1448E /* Secret Mixes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0E164E9150DBF0E00C1448E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E0E164EC150DBF0E00C1448E /* Build configuration list for PBXProject "Secret Mixes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E0E164E7150DBF0E00C1448E;
+			productRefGroup = E0E164F3150DBF0E00C1448E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0E164F1150DBF0E00C1448E /* Secret Mixes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0E164F0150DBF0E00C1448E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E16501150DBF0F00C1448E /* InfoPlist.strings in Resources */,
+				E0E1650A150DBF0F00C1448E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0E164EE150DBF0E00C1448E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E16503150DBF0F00C1448E /* main.m in Sources */,
+				E0E16507150DBF0F00C1448E /* SecretAppDelegate.m in Sources */,
+				E0E1650D150DBF0F00C1448E /* SecretViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E0E164FF150DBF0F00C1448E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0E16500150DBF0F00C1448E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E0E16508150DBF0F00C1448E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0E16509150DBF0F00C1448E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0E1650E150DBF0F00C1448E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E0E1650F150DBF0F00C1448E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0E16511150DBF0F00C1448E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Secret Mixes/Secret Mixes-Prefix.pch";
+				INFOPLIST_FILE = "Secret Mixes/Secret Mixes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E0E16512150DBF0F00C1448E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Secret Mixes/Secret Mixes-Prefix.pch";
+				INFOPLIST_FILE = "Secret Mixes/Secret Mixes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0E164EC150DBF0E00C1448E /* Build configuration list for PBXProject "Secret Mixes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E1650E150DBF0F00C1448E /* Debug */,
+				E0E1650F150DBF0F00C1448E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0E16510150DBF0F00C1448E /* Build configuration list for PBXNativeTarget "Secret Mixes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E16511150DBF0F00C1448E /* Debug */,
+				E0E16512150DBF0F00C1448E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0E164E9150DBF0E00C1448E /* Project object */;
+}
