@@ -7,54 +7,82 @@
 //
 
 #import "SecretViewController.h"
+#import <AVFoundation/AVAudioPlayer.h>
 
 @implementation SecretViewController
+@synthesize player;
+@synthesize track;
+@synthesize path;
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
+-(IBAction)playSound {
+       [player play];
+    NSLog(@"play");
 }
 
-#pragma mark - View lifecycle
+-(IBAction)nextButton{
+    [player stop];
+    if(track==@"1"){track=@"2";}
+  else if(track==@"2"){track=@"3";}
+  else if(track==@"3"){track=@"4";}
+  else if(track==@"4"){track=@"5";}
+   else if(track==@"5"){track=@"1";}
+    
+   if(track==@"2") self.path=[NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/buscando.mp3", [[NSBundle mainBundle] resourcePath]]];
+   else if(track==@"3") self.path=[NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/harmony.mp3", [[NSBundle mainBundle] resourcePath]]];
+   else if(track==@"4") self.path=[NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/ithoughtiknew.mp3", [[NSBundle mainBundle] resourcePath]]];
+   else if(track==@"5") self.path=[NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/liftthatlatch.mp3", [[NSBundle mainBundle] resourcePath]]];
+   else self.path=[NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/bigtoe.mp3", [[NSBundle mainBundle] resourcePath]]];
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    NSError *error;           
+    AVAudioPlayer* newPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:path error:&error];
+    player = newPlayer;
+    [player setDelegate:self];
+    [player play];
+    NSLog(track);
+}
+-(IBAction)prevButton{
+    [player stop];
+    if(track==@"1"){track=@"5";}
+   else if(track==@"2"){track=@"1";}
+   else if(track==@"3"){track=@"2";}
+   else if(track==@"4"){track=@"3";}
+   else if(track==@"5"){track=@"4";}  
+    
+    if(track==@"2") self.path=[NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/buscando.mp3", [[NSBundle mainBundle] resourcePath]]];
+    else if(track==@"3") self.path=[NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/harmony.mp3", [[NSBundle mainBundle] resourcePath]]];
+    else if(track==@"4") self.path=[NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/ithoughtiknew.mp3", [[NSBundle mainBundle] resourcePath]]];
+    else if(track==@"5") self.path=[NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/liftthatlatch.mp3", [[NSBundle mainBundle] resourcePath]]];
+    else path=[NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/bigtoe.mp3", [[NSBundle mainBundle] resourcePath]]];
+
+    NSError *error;           
+    AVAudioPlayer* newPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:path error:&error];
+    player = newPlayer;
+    [player setDelegate: self];
+    [player play];
+    NSLog(track);
+
+}
+-(IBAction)pauseSound{
+    [player pause];
+    NSLog(@"pause");
+    
 }
 
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
+-(void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)playedSuccessfully {
+    self.player = nil;
 }
 
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-}
+-(void)viewDidLoad{
+   track=@"1";
+    path = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/bigtoe.mp3", [[NSBundle mainBundle] resourcePath]]];
+    NSError *error;           
+    AVAudioPlayer* newPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:path error:&error];
+    self.player = newPlayer;
+    [player setDelegate:self];
+    [player prepareToPlay];
+    [player play];
+    NSLog(@"program launch!");
 
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
 }
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-	[super viewWillDisappear:animated];
-}
-
-- (void)viewDidDisappear:(BOOL)animated
-{
-	[super viewDidDisappear:animated];
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    // Return YES for supported orientations
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-}
-
 @end
+

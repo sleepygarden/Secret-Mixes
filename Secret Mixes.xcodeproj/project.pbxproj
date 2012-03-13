@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0C8C13E150EB2D70099A7A6 /* bigtoe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0C8C13D150EB2D70099A7A6 /* bigtoe.mp3 */; };
+		E0C8C143150ED8620099A7A6 /* buscando.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0C8C13F150ED8620099A7A6 /* buscando.mp3 */; };
+		E0C8C144150ED8620099A7A6 /* harmony.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0C8C140150ED8620099A7A6 /* harmony.mp3 */; };
+		E0C8C145150ED8620099A7A6 /* ithoughtiknew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0C8C141150ED8620099A7A6 /* ithoughtiknew.mp3 */; };
+		E0C8C146150ED8620099A7A6 /* liftthatlatch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0C8C142150ED8620099A7A6 /* liftthatlatch.mp3 */; };
 		E0E164F7150DBF0F00C1448E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E164F6150DBF0E00C1448E /* UIKit.framework */; };
 		E0E164F9150DBF0F00C1448E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E164F8150DBF0F00C1448E /* Foundation.framework */; };
 		E0E164FB150DBF0F00C1448E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E164FA150DBF0F00C1448E /* CoreGraphics.framework */; };
@@ -15,22 +20,35 @@
 		E0E16507150DBF0F00C1448E /* SecretAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E16506150DBF0F00C1448E /* SecretAppDelegate.m */; };
 		E0E1650A150DBF0F00C1448E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E16508150DBF0F00C1448E /* MainStoryboard.storyboard */; };
 		E0E1650D150DBF0F00C1448E /* SecretViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E1650C150DBF0F00C1448E /* SecretViewController.m */; };
+		E0E1651A150DC21700C1448E /* Secret Mixes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0E16516150DC21700C1448E /* Secret Mixes.jpg */; };
+		E0E1651C150DC21700C1448E /* Secret Mixesicon.png in Resources */ = {isa = PBXBuildFile; fileRef = E0E16518150DC21700C1448E /* Secret Mixesicon.png */; };
+		E0E1651D150DC21700C1448E /* Secret Mixesicon.psd in Resources */ = {isa = PBXBuildFile; fileRef = E0E16519150DC21700C1448E /* Secret Mixesicon.psd */; };
+		E0E1651F150DC3BF00C1448E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E1651E150DC3BF00C1448E /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E0C8C13D150EB2D70099A7A6 /* bigtoe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bigtoe.mp3; path = ../../bigtoe.mp3; sourceTree = "<group>"; };
+		E0C8C13F150ED8620099A7A6 /* buscando.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = buscando.mp3; path = ../../buscando.mp3; sourceTree = "<group>"; };
+		E0C8C140150ED8620099A7A6 /* harmony.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = harmony.mp3; path = ../../harmony.mp3; sourceTree = "<group>"; };
+		E0C8C141150ED8620099A7A6 /* ithoughtiknew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ithoughtiknew.mp3; path = ../../ithoughtiknew.mp3; sourceTree = "<group>"; };
+		E0C8C142150ED8620099A7A6 /* liftthatlatch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = liftthatlatch.mp3; path = ../../liftthatlatch.mp3; sourceTree = "<group>"; };
 		E0E164F2150DBF0E00C1448E /* Secret Mixes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Secret Mixes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E164F6150DBF0E00C1448E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E0E164F8150DBF0F00C1448E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E0E164FA150DBF0F00C1448E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E0E164FE150DBF0F00C1448E /* Secret Mixes-Info.plist */ = {isa = PBXFileReference; path = "Secret Mixes-Info.plist"; sourceTree = "<group>"; };
+		E0E164FE150DBF0F00C1448E /* Secret Mixes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Secret Mixes-Info.plist"; sourceTree = "<group>"; };
 		E0E16500150DBF0F00C1448E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E0E16502150DBF0F00C1448E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E0E16504150DBF0F00C1448E /* Secret Mixes-Prefix.pch */ = {isa = PBXFileReference; path = "Secret Mixes-Prefix.pch"; sourceTree = "<group>"; };
-		E0E16505150DBF0F00C1448E /* SecretAppDelegate.h */ = {isa = PBXFileReference; path = SecretAppDelegate.h; sourceTree = "<group>"; };
+		E0E16504150DBF0F00C1448E /* Secret Mixes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Secret Mixes-Prefix.pch"; sourceTree = "<group>"; };
+		E0E16505150DBF0F00C1448E /* SecretAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecretAppDelegate.h; sourceTree = "<group>"; };
 		E0E16506150DBF0F00C1448E /* SecretAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecretAppDelegate.m; sourceTree = "<group>"; };
 		E0E16509150DBF0F00C1448E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		E0E1650B150DBF0F00C1448E /* SecretViewController.h */ = {isa = PBXFileReference; path = SecretViewController.h; sourceTree = "<group>"; };
+		E0E1650B150DBF0F00C1448E /* SecretViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecretViewController.h; sourceTree = "<group>"; };
 		E0E1650C150DBF0F00C1448E /* SecretViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecretViewController.m; sourceTree = "<group>"; };
+		E0E16516150DC21700C1448E /* Secret Mixes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Secret Mixes.jpg"; path = "Resources/Secret Mixes.jpg"; sourceTree = "<group>"; };
+		E0E16518150DC21700C1448E /* Secret Mixesicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Secret Mixesicon.png"; path = "Resources/Secret Mixesicon.png"; sourceTree = "<group>"; };
+		E0E16519150DC21700C1448E /* Secret Mixesicon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Secret Mixesicon.psd"; path = "Resources/Secret Mixesicon.psd"; sourceTree = "<group>"; };
+		E0E1651E150DC3BF00C1448E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +59,7 @@
 				E0E164F7150DBF0F00C1448E /* UIKit.framework in Frameworks */,
 				E0E164F9150DBF0F00C1448E /* Foundation.framework in Frameworks */,
 				E0E164FB150DBF0F00C1448E /* CoreGraphics.framework in Frameworks */,
+				E0E1651F150DC3BF00C1448E /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +69,7 @@
 		E0E164E7150DBF0E00C1448E = {
 			isa = PBXGroup;
 			children = (
+				E0E16515150DC1CA00C1448E /* Resources */,
 				E0E164FC150DBF0F00C1448E /* Secret Mixes */,
 				E0E164F5150DBF0E00C1448E /* Frameworks */,
 				E0E164F3150DBF0E00C1448E /* Products */,
@@ -67,6 +87,7 @@
 		E0E164F5150DBF0E00C1448E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E0E1651E150DC3BF00C1448E /* AVFoundation.framework */,
 				E0E164F6150DBF0E00C1448E /* UIKit.framework */,
 				E0E164F8150DBF0F00C1448E /* Foundation.framework */,
 				E0E164FA150DBF0F00C1448E /* CoreGraphics.framework */,
@@ -96,6 +117,21 @@
 				E0E16504150DBF0F00C1448E /* Secret Mixes-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0E16515150DC1CA00C1448E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E0C8C13F150ED8620099A7A6 /* buscando.mp3 */,
+				E0C8C140150ED8620099A7A6 /* harmony.mp3 */,
+				E0C8C141150ED8620099A7A6 /* ithoughtiknew.mp3 */,
+				E0C8C142150ED8620099A7A6 /* liftthatlatch.mp3 */,
+				E0C8C13D150EB2D70099A7A6 /* bigtoe.mp3 */,
+				E0E16516150DC21700C1448E /* Secret Mixes.jpg */,
+				E0E16518150DC21700C1448E /* Secret Mixesicon.png */,
+				E0E16519150DC21700C1448E /* Secret Mixesicon.psd */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +186,14 @@
 			files = (
 				E0E16501150DBF0F00C1448E /* InfoPlist.strings in Resources */,
 				E0E1650A150DBF0F00C1448E /* MainStoryboard.storyboard in Resources */,
+				E0E1651A150DC21700C1448E /* Secret Mixes.jpg in Resources */,
+				E0E1651C150DC21700C1448E /* Secret Mixesicon.png in Resources */,
+				E0E1651D150DC21700C1448E /* Secret Mixesicon.psd in Resources */,
+				E0C8C13E150EB2D70099A7A6 /* bigtoe.mp3 in Resources */,
+				E0C8C143150ED8620099A7A6 /* buscando.mp3 in Resources */,
+				E0C8C144150ED8620099A7A6 /* harmony.mp3 in Resources */,
+				E0C8C145150ED8620099A7A6 /* ithoughtiknew.mp3 in Resources */,
+				E0C8C146150ED8620099A7A6 /* liftthatlatch.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +318,7 @@
 				E0E16512150DBF0F00C1448E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
