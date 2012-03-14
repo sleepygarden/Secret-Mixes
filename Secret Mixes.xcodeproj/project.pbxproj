@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E0C8C13E150EB2D70099A7A6 /* bigtoe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0C8C13D150EB2D70099A7A6 /* bigtoe.mp3 */; };
-		E0C8C143150ED8620099A7A6 /* buscando.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0C8C13F150ED8620099A7A6 /* buscando.mp3 */; };
-		E0C8C144150ED8620099A7A6 /* harmony.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0C8C140150ED8620099A7A6 /* harmony.mp3 */; };
-		E0C8C145150ED8620099A7A6 /* ithoughtiknew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0C8C141150ED8620099A7A6 /* ithoughtiknew.mp3 */; };
-		E0C8C146150ED8620099A7A6 /* liftthatlatch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0C8C142150ED8620099A7A6 /* liftthatlatch.mp3 */; };
+		E0C8C15015105FCF0099A7A6 /* bigtoe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0C8C14B15105FCF0099A7A6 /* bigtoe.mp3 */; };
+		E0C8C15115105FCF0099A7A6 /* buscando.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0C8C14C15105FCF0099A7A6 /* buscando.mp3 */; };
+		E0C8C15215105FCF0099A7A6 /* ithoughtiknew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0C8C14D15105FCF0099A7A6 /* ithoughtiknew.mp3 */; };
+		E0C8C15315105FCF0099A7A6 /* liftthatlatch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0C8C14E15105FCF0099A7A6 /* liftthatlatch.mp3 */; };
+		E0C8C15415105FCF0099A7A6 /* harmony.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0C8C14F15105FCF0099A7A6 /* harmony.mp3 */; };
 		E0E164F7150DBF0F00C1448E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E164F6150DBF0E00C1448E /* UIKit.framework */; };
 		E0E164F9150DBF0F00C1448E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E164F8150DBF0F00C1448E /* Foundation.framework */; };
 		E0E164FB150DBF0F00C1448E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E164FA150DBF0F00C1448E /* CoreGraphics.framework */; };
@@ -27,11 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E0C8C13D150EB2D70099A7A6 /* bigtoe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bigtoe.mp3; path = ../../bigtoe.mp3; sourceTree = "<group>"; };
-		E0C8C13F150ED8620099A7A6 /* buscando.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = buscando.mp3; path = ../../buscando.mp3; sourceTree = "<group>"; };
-		E0C8C140150ED8620099A7A6 /* harmony.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = harmony.mp3; path = ../../harmony.mp3; sourceTree = "<group>"; };
-		E0C8C141150ED8620099A7A6 /* ithoughtiknew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ithoughtiknew.mp3; path = ../../ithoughtiknew.mp3; sourceTree = "<group>"; };
-		E0C8C142150ED8620099A7A6 /* liftthatlatch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = liftthatlatch.mp3; path = ../../liftthatlatch.mp3; sourceTree = "<group>"; };
+		E0C8C14B15105FCF0099A7A6 /* bigtoe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bigtoe.mp3; sourceTree = "<group>"; };
+		E0C8C14C15105FCF0099A7A6 /* buscando.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buscando.mp3; sourceTree = "<group>"; };
+		E0C8C14D15105FCF0099A7A6 /* ithoughtiknew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ithoughtiknew.mp3; sourceTree = "<group>"; };
+		E0C8C14E15105FCF0099A7A6 /* liftthatlatch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = liftthatlatch.mp3; sourceTree = "<group>"; };
+		E0C8C14F15105FCF0099A7A6 /* harmony.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = harmony.mp3; sourceTree = "<group>"; };
 		E0E164F2150DBF0E00C1448E /* Secret Mixes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Secret Mixes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E164F6150DBF0E00C1448E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E0E164F8150DBF0F00C1448E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -122,11 +122,11 @@
 		E0E16515150DC1CA00C1448E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E0C8C13F150ED8620099A7A6 /* buscando.mp3 */,
-				E0C8C140150ED8620099A7A6 /* harmony.mp3 */,
-				E0C8C141150ED8620099A7A6 /* ithoughtiknew.mp3 */,
-				E0C8C142150ED8620099A7A6 /* liftthatlatch.mp3 */,
-				E0C8C13D150EB2D70099A7A6 /* bigtoe.mp3 */,
+				E0C8C14B15105FCF0099A7A6 /* bigtoe.mp3 */,
+				E0C8C14C15105FCF0099A7A6 /* buscando.mp3 */,
+				E0C8C14D15105FCF0099A7A6 /* ithoughtiknew.mp3 */,
+				E0C8C14E15105FCF0099A7A6 /* liftthatlatch.mp3 */,
+				E0C8C14F15105FCF0099A7A6 /* harmony.mp3 */,
 				E0E16516150DC21700C1448E /* Secret Mixes.jpg */,
 				E0E16518150DC21700C1448E /* Secret Mixesicon.png */,
 				E0E16519150DC21700C1448E /* Secret Mixesicon.psd */,
@@ -189,11 +189,11 @@
 				E0E1651A150DC21700C1448E /* Secret Mixes.jpg in Resources */,
 				E0E1651C150DC21700C1448E /* Secret Mixesicon.png in Resources */,
 				E0E1651D150DC21700C1448E /* Secret Mixesicon.psd in Resources */,
-				E0C8C13E150EB2D70099A7A6 /* bigtoe.mp3 in Resources */,
-				E0C8C143150ED8620099A7A6 /* buscando.mp3 in Resources */,
-				E0C8C144150ED8620099A7A6 /* harmony.mp3 in Resources */,
-				E0C8C145150ED8620099A7A6 /* ithoughtiknew.mp3 in Resources */,
-				E0C8C146150ED8620099A7A6 /* liftthatlatch.mp3 in Resources */,
+				E0C8C15015105FCF0099A7A6 /* bigtoe.mp3 in Resources */,
+				E0C8C15115105FCF0099A7A6 /* buscando.mp3 in Resources */,
+				E0C8C15215105FCF0099A7A6 /* ithoughtiknew.mp3 in Resources */,
+				E0C8C15315105FCF0099A7A6 /* liftthatlatch.mp3 in Resources */,
+				E0C8C15415105FCF0099A7A6 /* harmony.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

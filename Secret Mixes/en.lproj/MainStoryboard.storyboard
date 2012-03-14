@@ -24,7 +24,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Godchilla - Big Toe" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="LdC-Cy-lPR">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Godchilla - Secret Mixes" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="LdC-Cy-lPR">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -91,9 +91,19 @@
                                     <action selector="nextButton" destination="2" eventType="touchUpInside" id="Xqh-4X-ddp"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="682-0J-mYP">
+                                <rect key="frame" x="20" y="374" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="trackDisplay" destination="682-0J-mYP" id="TdN-Hp-GwV"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="97" y="-5"/>
@@ -110,6 +120,7 @@
                 <relationship kind="action" name="pauseSound"/>
                 <relationship kind="action" name="playSound"/>
                 <relationship kind="action" name="prevButton"/>
+                <relationship kind="outlet" name="trackDisplay" candidateClass="UILabel"/>
             </relationships>
         </class>
     </classes>

@@ -17,7 +17,14 @@
 -(IBAction)pauseSound;
 
 @property (strong)AVAudioPlayer *player;
-@property (nonatomic,retain) NSString *track;
+@property NSInteger track;
 @property (retain) NSURL *path;
+@property (retain) NSURL *track1;
+@property (retain) NSURL *track2;
+@property (retain) NSURL *track3;
+@property (retain) NSURL *track4;
+@property (retain) NSURL *track5;
+@property (strong) NSArray *tracklist;
+@property (weak, nonatomic) IBOutlet UILabel *trackDisplay;
 
 @end

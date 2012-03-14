@@ -16,18 +16,18 @@
          endingLineNumber = "5">
       </FileBreakpoint>
       <FileBreakpoint
-         shouldBeEnabled = "No"
+         shouldBeEnabled = "Yes"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          isPathRelative = "1"
-         filePath = "Secret Mixes/SecretViewController.m"
-         timestampString = "353301754.421357"
+         filePath = "Secret Mixes/SecretViewController.h"
+         timestampString = "353400601.689828"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "34"
-         endingLineNumber = "34"
-         landmarkName = "-nextButton"
-         landmarkType = "5">
+         startingLineNumber = "20"
+         endingLineNumber = "20"
+         landmarkName = "track"
+         landmarkType = "19">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -35,12 +35,26 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "Secret Mixes/SecretViewController.m"
-         timestampString = "353301754.421357"
+         timestampString = "353406046.093757"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "31"
-         endingLineNumber = "31"
-         landmarkName = "-nextButton"
+         startingLineNumber = "72"
+         endingLineNumber = "72"
+         landmarkName = "-viewDidLoad"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "Secret Mixes/SecretViewController.m"
+         timestampString = "353405904.564815"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "87"
+         endingLineNumber = "87"
+         landmarkName = "-viewDidLoad"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
